@@ -1,13 +1,6 @@
 <odoo>
   <data>
 
-      <!-- This Menu Item will appear in the Upper bar, that's why It needs NO parent or action -->
-    <menuitem id="openacademy_menu_root" name="Open Academy"/>
-    <!-- This Menu Item Must have a parent -->
-    <menuitem id="openacademy_menu" name="Open Academy" parent="openacademy_menu_root"/>
-    <!-- This Menu Item must have a parent and an action -->
-    <menuitem id="courses_menu_act" name="Courses" parent="openacademy_menu" action="course_list_action"/>
-
     <!-- model.name tree view Evento al presionar en el menu Courses -->
     <record id="course_list_action" model="ir.actions.act_window">
       <field name="name">Courses</field>
@@ -80,6 +73,13 @@
         </search>
       </field>
     </record>
+
+     <!-- This Menu Item will appear in the Upper bar, that's why It needs NO parent or action -->
+    <menuitem id="openacademy_menu_root" name="Open Academy"/>
+    <!-- This Menu Item Must have a parent -->
+    <menuitem id="openacademy_menu" name="Open Academy" parent="openacademy_menu_root"/>
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem id="courses_menu_act" name="Courses" parent="openacademy_menu" action="course_list_action"/>
 
     <!-- explicit list view definition -->
     <!--

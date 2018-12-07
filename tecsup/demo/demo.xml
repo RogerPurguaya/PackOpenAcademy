@@ -1,17 +1,5 @@
 <odoo>
     <data>
-        <record id="course1" model="openacademy.course">
-            <field name="name">Course 01<field/>
-            <field name="description">Description of course 01</field>
-        </record>
-        <record id="course2" model="openacademy.course">
-            <field name="name">Course 02<field/>
-            <field name="description">Description of course 02</field>
-        </record>
-        <record id="course3" model="openacademy.course">
-            <field name="name">Course 03<field/>
-            <field name="description">Description of course 03</field>
-        </record>
         <!--  -->
         <!--   <record id="object0" model="tecsup.tecsup"> -->
         <!--     <field name="name">Object 0</field> -->
